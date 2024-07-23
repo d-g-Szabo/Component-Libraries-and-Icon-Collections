@@ -3,6 +3,11 @@ import Animation from "@/components/Animation";
 
 import coasterRoller from "@/../public/coasterRoller.jpg";
 
+//import the popover demo component
+import PopoverDemo from "@/components/PopoverDemo";
+
+import AccordionDemo from "@/components/Accordion";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -14,7 +19,8 @@ export default function Home() {
         width={500}
         height={200}
       ></Image>
-
+      <PopoverDemo />
+      <AccordionDemo />
       <Image
         alt="coaster roller"
         src={coasterRoller}
